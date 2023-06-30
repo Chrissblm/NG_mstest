@@ -1,0 +1,6 @@
+# Ignore everything except the specific folder
+/*
+!NG_mstest/dist/
+!dist/
+dist/manifest.xml
+!**.gitignore
