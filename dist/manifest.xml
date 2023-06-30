@@ -6,9 +6,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="NextGenAI"/>
   <Description DefaultValue="Procurement AI Assistant"/>
-  <IconUrl DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/assets/nglogo-64.png"/>
-  <SupportUrl DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/taskpane.html">
+  <IconUrl DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/assets/nglogo-64.png"/>
+  <SupportUrl DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/taskpane.html">
     </SupportUrl>
   <AppDomains>
     <AppDomain>https://www.openai.com</AppDomain>
@@ -22,7 +22,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/taskpane.html"/>
+    <SourceLocation DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -85,15 +85,15 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/assets/nglogo-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/assets/nglogo-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/public/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/public/functions.json"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/public/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/public/functions.json"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://cs110032001911961cc.z23.web.core.windows.net/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/Chrissblm/NG_mstest/tree/bf428dcd6b93da943facde88ce6cf5c146f58705/dist/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Functions.Namespace" DefaultValue="NG"/>
