@@ -1,0 +1,139 @@
+/* 
+ * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+ @font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+        url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+html, body, .container, .chat-output, .options-container, .tablink {
+    font-size: 16px;
+    line-height: 24px;
+    color: #353740;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.tabcontent {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    color: #353740;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+ .ms-welcome__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #353740;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+    padding: 0px 24px 24px;
+}
+.ms-welcome__main > h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #353740;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+    padding: 0px 24px 24px;
+}
+.ms-Button.ms-Button--hero .ms-Button-label {
+    color: #0078d7;
+}
+
+.ms-Button.ms-Button--hero:hover .ms-Button-label,
+.ms-Button.ms-Button--hero:focus .ms-Button-label{
+    color: #005a9e;
+    cursor: pointer;
+}
+
+b, .tablink.active {
+    font-weight: bold;
+}
+
+main {
+    display: block;
+    padding: 0px 10px 10px;
+}
+
+.tablink {
+    flex-grow: 1;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tabs   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px 24px;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.alert-saved {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.chat-input, .options-container select, .options-container input[type="range"], #prompt-textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #10a37f;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline-color: #10a37f;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.options-container {
+    width: 80%;
+    height: 5%;
+    display: flex

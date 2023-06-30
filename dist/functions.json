@@ -1,0 +1,147 @@
+{
+    "functions": [
+        {
+            "description": "Add two numbers",
+            "id": "ADD",
+            "name": "ADD",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Submits text to GPT-3 and returns the completion",
+            "id": "GPTINTERACT",
+            "name": "GPTINTERACT",
+            "parameters": [
+                {
+                    "description": "Prompt to submit to GPT-3",
+                    "name": "prompt",
+                    "type": "string"
+                },
+                {
+                    "description": "Model temperature (0-1)",
+                    "name": "temperature",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "Model name (e.g. text-davinci-002)",
+                    "name": "model",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "Max Tokens (< 4000)",
+                    "name": "maxTokens",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Submits text to GPT and returns the completion",
+            "id": "AICHAT",
+            "name": "AICHAT",
+            "parameters": [
+                {
+                    "description": "Model name (e.g. gpt-3.5-turbo)",
+                    "name": "model",
+                    "type": "string"
+                },
+                {
+                    "description": "Content from the user",
+                    "name": "userContent",
+                    "type": "string"
+                },
+                {
+                    "description": "Content from the assistant",
+                    "name": "assistantContent",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "Model temperature (0-1)",
+                    "name": "temperature",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "Max Tokens (< 4000)",
+                    "name": "maxTokens",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Submits text to OpenAI and returns the completion",
+            "id": "ASK",
+            "name": "ASK",
+            "parameters": [
+                {
+                    "description": "The contents of the message. content is required for all messages except assistant messages with function calls.",
+                    "name": "content",
+                    "type": "string"
+                },
+                {
+                    "description": "The role of the messages author. One of system, user, assistant, or function.",
+                    "name": "role",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "ID of the model to use. See the model endpoint compatibility table for details on which models work with the Chat API.",
+                    "name": "model",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "Max Tokens (< 4000)",
+                    "name": "maxTokens",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.",
+                    "name": "temperature",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Writes a message to console.log().",
+            "id": "LOG",
+            "name": "LOG",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
